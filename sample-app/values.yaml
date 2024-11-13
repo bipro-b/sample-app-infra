@@ -10,8 +10,8 @@ serviceAccount:
   create: true
 
 ingress:
-  enabled: false  # Set to true if you want to enable ingress
+  enabled: false  
 
 autoscaling:
-  enabled: false  # Set to true if you want autoscaling
+  enabled: false  
   
