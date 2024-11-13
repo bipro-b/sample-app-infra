@@ -1,0 +1,7 @@
+image:
+  repository: biprobarai/sample-app
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 3000
