@@ -11,8 +11,7 @@ This guide provides instructions to set up Argo CD on a local Kubernetes cluster
 
 Ensure your local Kubernetes cluster is up and running. For example, if using Minikube:
 
-```bash
-minikube start
+
 
 ![Connection Argo CD to Infrastructure Repository](https://github.com/bipro-b/sample-app-infra/blob/main/sample-app/images/arg.png?raw=true)
 
