@@ -16,12 +16,13 @@ This guide provides instructions to set up Argo CD on a local Kubernetes cluster
 
 Ensure your local Kubernetes cluster is up and running. For example, if using Minikube:
 
-```bash
+
 minikube start
 Step 2: Install Argo CD
 Create a namespace for Argo CD:
-
+```
 kubectl create namespace argocd
+```
 Install Argo CD by applying the official manifest:
 
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
