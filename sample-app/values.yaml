@@ -7,12 +7,11 @@ service:
   port: 3000
 
 serviceAccount:
-  create: true  # Ensure this exists for service account creation
+  create: true
 
 ingress:
   enabled: false  # Set to true if you want to enable ingress
-  # Add other ingress-related settings here if required by the template
-  # For example:
-  # host: example.com
-  # annotations: {}
-  # tls: []
+
+autoscaling:
+  enabled: false  # Set to true if you want autoscaling
+  
