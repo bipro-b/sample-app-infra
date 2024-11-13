@@ -14,5 +14,5 @@ Ensure your local Kubernetes cluster is up and running. For example, if using Mi
 ```bash
 minikube start
 
-![Connecttion Argo CD to  Infrastructure Repository](/sample-app/images/arg.png)
+![Connecttion Argo CD to  Infrastructure Repository](https://github.com/bipro-b/sample-app-infra/blob/main/sample-app/images/arg.png)
 
